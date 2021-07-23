@@ -1,0 +1,28 @@
+
+
+Projct structure:
+
+files : 
+	report.docx >> is basically  a short ecplnation of the work done 
+	resultat_knn>> is a spreadsheet of th resaults of running knn from 1 to 10 on this algorithm with K from weber law = 0.1
+
+the XXX.npy files are attached here can be recratd with the code provided in those 3 python files 
+
+the folders : /Faces/ > /tst/ > /sortd/ contain the imags of the database and requests , and sorted has all the pics sorted
+
+the code : offline.py > distance.py > knn.py 
+
+run main.py to run the program from the start if the 
+arrays (histos_of_360 , histos_of_40 , distances40_to_360) doesn't exist , otherwise feel free to run just the methode part_3() on its own from the file knn.py
+
+*offline will create (histos_of_360 , histos_of_40) in about 4-6 minutes 
+*distances will create (distances_40to360) in about 1-2 minutes
+*knn will run the classification program 
+
+
+PS : due to opencv.hstack the imags shown will always be even %2 = 0 ven if K was set to an odd number
+
+
+
+ 
+
